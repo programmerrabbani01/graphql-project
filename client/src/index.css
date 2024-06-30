@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+   /* login start */
+
+  #login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://i.ibb.co/nLchJ9S/blue-wide-screen-webpage-business-600nw-695161762.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #login .loginInner {
+    width: 750px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px 35px 55px;
+    margin: 0px 10px;
+  }
+  
+  #login .loginInner h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #login .inputBox .inputField {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 13px 0px;
+  }
+  
+  #login .inputBox .inputField input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+  }
+  
+  #login .inputBox .inputField input::placeholder {
+    color: #fff;
+  }
+  
+  #login .inputBox .inputField i.bx {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  #login .inputBox .inputField span.eye {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    cursor: pointer;
+  }
+  
+  #login .inputBox .inputField span.eye i#open {
+    display: none;
+  }
+  
+  #login .btn {
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  /* login end */
+
+
+  /* register start */
+
+  
+#register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://i.ibb.co/nLchJ9S/blue-wide-screen-webpage-business-600nw-695161762.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#register .registerInner {
+  width: 750px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  color: #fff;
+  padding: 40px 35px 55px;
+  margin: 0px 10px;
+}
+
+#register h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#register .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#register .inputBox .inputField {
+  position: relative;
+  width: 48%;
+  height: 50px;
+  margin: 13px 0px;
+}
+
+#register .inputBox .inputField input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 15px 15px 15px 40px;
+}
+
+#register .inputBox .inputField input::placeholder {
+  color: #fff;
+}
+
+#register .inputBox .inputField i.bx {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+}
+
+#register .inputBox .inputField span.eye {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  cursor: pointer;
+}
+
+#register .inputBox .inputField span.eye i#open1 {
+  display: none;
+}
+
+#register .inputBox .inputField span.eye i#open2 {
+  display: none;
+}
+
+#register label {
+  display: inline-block;
+  font-size: 14.5px;
+  margin: 10px 0px 23px;
+}
+
+#register label input {
+  accent-color: #fff;
+  margin-right: 5px;
+}
+
+#register .btn {
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  #register .inputBox .inputField {
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+
+  /* register end */
